@@ -1,0 +1,17 @@
+{
+  "version": 1,
+  "registry": "https://clawhub.ai",
+  "slug": "obsidian",
+  "ownerHandle": "steipete",
+  "installedVersion": "1.0.0",
+  "installedAt": 1783430758871,
+  "artifact": {
+    "kind": "archive",
+    "sha256": "2aea16e9debdf9c5b9e996144c664d79fc604256b3558240f45b806ab6913ae1",
+    "integrity": "sha256-KuoW6d69+cW56ZYUTGZNefxgQlazVYJA9FuAaraROuE="
+  },
+  "skillFile": {
+    "path": "SKILL.md",
+    "sha256": "dc45b522a0f08fa11762b330b5355ccaca789bd645b0c450fe75026f69d728b2"
+  }
+}

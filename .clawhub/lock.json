@@ -1,0 +1,200 @@
+{
+  "version": 1,
+  "skills": {
+    "weather": {
+      "version": "1.0.0",
+      "installedAt": 1783430720914,
+      "registry": "https://clawhub.ai",
+      "artifact": {
+        "kind": "archive",
+        "sha256": "5788b59a93042bf49d553c02cbbd4c79f87c89526cd6237c3574f6afd9be6487",
+        "integrity": "sha256-V4i1mpMEK/SdVTwCy71Mefh8iVJs1iN8NXT2r9m+ZIc="
+      },
+      "skillFile": {
+        "path": "SKILL.md",
+        "sha256": "1ca0c8d768ad603ea8d5d47f56a9b435fe575f7f34e719eda85c82003d740e93"
+      },
+      "verification": {
+        "schema": "clawhub.skill.verify.v1",
+        "ok": true,
+        "decision": "pass",
+        "reasons": [],
+        "card": {
+          "available": true,
+          "path": "skill-card.md",
+          "url": "https://wry-manatee-359.convex.site/api/v1/skills/weather/card?ownerHandle=steipete&version=1.0.0",
+          "sha256": "12bfb02d308123d858f6723b64b8c5acbc28fa5fbde8f4ce65f9645c125df388",
+          "size": 1849,
+          "contentType": "text/markdown; charset=utf-8"
+        },
+        "artifact": {
+          "sourceFingerprint": null,
+          "bundleFingerprints": [
+            "85ddde399c7f6f41a9e24408c2c9fabf1b776fda4a19f933fb973eb0dd740a5e"
+          ],
+          "files": [
+            {
+              "path": "SKILL.md",
+              "size": 1169,
+              "sha256": "1ca0c8d768ad603ea8d5d47f56a9b435fe575f7f34e719eda85c82003d740e93",
+              "contentType": "text/markdown"
+            }
+          ]
+        },
+        "provenance": {
+          "source": "unavailable",
+          "reason": "No server-resolved GitHub import provenance is stored for this version."
+        },
+        "security": {
+          "status": "clean",
+          "passed": true,
+          "rawStatus": "clean",
+          "verdict": "benign",
+          "confidence": "high",
+          "summary": "This skill is a simple weather lookup helper that uses curl to query public weather APIs, with no hidden scripts or persistence.",
+          "model": "gpt-5.5",
+          "checkedAt": 1779912348847,
+          "signals": {
+            "staticScan": {
+              "status": "clean",
+              "rawStatus": "clean",
+              "reasonCodes": [],
+              "summary": "No suspicious patterns detected.",
+              "engineVersion": "v2.4.5",
+              "checkedAt": 1777524883948
+            },
+            "virusTotal": {
+              "status": "clean",
+              "rawStatus": "clean",
+              "verdict": "benign",
+              "analysis": "Type: OpenClaw Skill\nName: weather\nVersion: 1.0.0\n\nThe skill bundle is benign. It uses `curl` to fetch weather data from legitimate public APIs (`wttr.in` and `api.open-meteo.com`), as described in `SKILL.md`. The only file operation is writing a temporary image to `/tmp/weather.png`, which is a safe and expected behavior for displaying weather. There is no evidence of data exfiltration, malicious execution, persistence mechanisms, prompt injection attempts against the agent, or obfuscation.",
+              "source": "palm",
+              "scanner": "code_insight",
+              "engineStats": {
+                "harmless": 0,
+                "malicious": 0,
+                "suspicious": 0,
+                "undetected": 64
+              },
+              "checkedAt": 1779159629745
+            },
+            "skillSpector": {
+              "status": "clean",
+              "rawStatus": "clean",
+              "score": 0,
+              "severity": "LOW",
+              "recommendation": "SAFE",
+              "issueCount": 0,
+              "scannerVersion": "2.0.0",
+              "summary": null,
+              "error": null,
+              "checkedAt": 1779912316082
+            },
+            "dependencyRegistry": null
+          }
+        },
+        "signature": {
+          "status": "unsigned"
+        }
+      }
+    },
+    "obsidian": {
+      "version": "1.0.0",
+      "installedAt": 1783430758871,
+      "registry": "https://clawhub.ai",
+      "ownerHandle": "steipete",
+      "artifact": {
+        "kind": "archive",
+        "sha256": "2aea16e9debdf9c5b9e996144c664d79fc604256b3558240f45b806ab6913ae1",
+        "integrity": "sha256-KuoW6d69+cW56ZYUTGZNefxgQlazVYJA9FuAaraROuE="
+      },
+      "skillFile": {
+        "path": "SKILL.md",
+        "sha256": "dc45b522a0f08fa11762b330b5355ccaca789bd645b0c450fe75026f69d728b2"
+      },
+      "verification": {
+        "schema": "clawhub.skill.verify.v1",
+        "ok": true,
+        "decision": "pass",
+        "reasons": [],
+        "card": {
+          "available": true,
+          "path": "skill-card.md",
+          "url": "https://wry-manatee-359.convex.site/api/v1/skills/obsidian/card?ownerHandle=steipete&version=1.0.0",
+          "sha256": "428890d414df95ce6456b35bbfbaedf3b6b7581493a0e9e4013d82ea984b389b",
+          "size": 2062,
+          "contentType": "text/markdown; charset=utf-8"
+        },
+        "artifact": {
+          "sourceFingerprint": null,
+          "bundleFingerprints": [
+            "d486b5a80c974bf04ddaecbbe13f1552cc3cb996b304a1f7663c750fd2229dfc"
+          ],
+          "files": [
+            {
+              "path": "SKILL.md",
+              "size": 2334,
+              "sha256": "dc45b522a0f08fa11762b330b5355ccaca789bd645b0c450fe75026f69d728b2",
+              "contentType": "text/markdown"
+            }
+          ]
+        },
+        "provenance": {
+          "source": "unavailable",
+          "reason": "No server-resolved GitHub import provenance is stored for this version."
+        },
+        "security": {
+          "status": "clean",
+          "passed": true,
+          "rawStatus": "clean",
+          "verdict": "benign",
+          "confidence": "high",
+          "summary": "This skill is a straightforward Obsidian helper, with disclosed local note access and a disclosed third-party CLI dependency.",
+          "model": "gpt-5.5",
+          "checkedAt": 1779912380411,
+          "signals": {
+            "staticScan": {
+              "status": "clean",
+              "rawStatus": "clean",
+              "reasonCodes": [],
+              "summary": "No suspicious patterns detected.",
+              "engineVersion": "v2.4.5",
+              "checkedAt": 1777524883265
+            },
+            "virusTotal": {
+              "status": "suspicious",
+              "rawStatus": "suspicious",
+              "verdict": "suspicious",
+              "analysis": "Type: OpenClaw Skill\nName: obsidian\nVersion: 1.0.0\n\nThe skill is classified as suspicious due to its reliance on installing a third-party command-line tool (`obsidian-cli`) from a custom Homebrew tap (`yakitrak/yakitrak`) as specified in `SKILL.md`. This introduces a supply chain risk, as the integrity of the `obsidian-cli` tool depends on the `yakitrak` maintainer. Additionally, `SKILL.md` explicitly instructs the AI agent to read a local configuration file (`~/Library/Application Support/obsidian/obsidian.json`), which, while necessary for the stated purpose, represents a direct instruction for file system access, a high-risk capability. There is no clear evidence of intentional malicious behavior like data exfiltration or persistence.",
+              "source": "palm",
+              "scanner": "code_insight",
+              "engineStats": {
+                "harmless": 0,
+                "malicious": 0,
+                "suspicious": 0,
+                "undetected": 64
+              },
+              "checkedAt": 1779159618780
+            },
+            "skillSpector": {
+              "status": "clean",
+              "rawStatus": "clean",
+              "score": 0,
+              "severity": "LOW",
+              "recommendation": "SAFE",
+              "issueCount": 0,
+              "scannerVersion": "2.0.0",
+              "summary": null,
+              "error": null,
+              "checkedAt": 1779912320587
+            },
+            "dependencyRegistry": null
+          }
+        },
+        "signature": {
+          "status": "unsigned"
+        }
+      }
+    }
+  }
+}

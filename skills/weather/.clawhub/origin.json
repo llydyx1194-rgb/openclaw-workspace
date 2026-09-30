@@ -1,0 +1,16 @@
+{
+  "version": 1,
+  "registry": "https://clawhub.ai",
+  "slug": "weather",
+  "installedVersion": "1.0.0",
+  "installedAt": 1783430720914,
+  "artifact": {
+    "kind": "archive",
+    "sha256": "5788b59a93042bf49d553c02cbbd4c79f87c89526cd6237c3574f6afd9be6487",
+    "integrity": "sha256-V4i1mpMEK/SdVTwCy71Mefh8iVJs1iN8NXT2r9m+ZIc="
+  },
+  "skillFile": {
+    "path": "SKILL.md",
+    "sha256": "1ca0c8d768ad603ea8d5d47f56a9b435fe575f7f34e719eda85c82003d740e93"
+  }
+}
